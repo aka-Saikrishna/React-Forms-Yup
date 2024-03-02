@@ -1,0 +1,25 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form label{
+  margin-right: 10px;
+}
+.error{
+  color: brown;
+}
+.submit{
+  width: 300px;
+}
